@@ -246,6 +246,16 @@
 | `sox-testing` | Выборки, рабочие документы тестирования и оценки контролей по SOX. | [zip, 7 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/sox-testing.zip) |
 | `variance-analysis` | Раскладывает финансовые отклонения на факторы с пояснениями и каскадным анализом. | [zip, 8 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/variance-analysis.zip) |
 
+### gemini-i-modeli — Gemini и другие модели в Claude Code
+
+Gemini и другие модели в Claude Code: прокси, чтобы Claude Code работал на Gemini; мост, который отдаёт чтение больших проектов в Gemini CLI; opencodex — любые модели (GPT, Grok, DeepSeek, Kimi, Qwen, Ollama) в Claude Code, Claude Desktop и Codex. **Работают на вашем компьютере** (через Claude Code), а не внутри чата claude.ai: навык ведёт по установке и настройке по шагам.
+
+| Навык | Что делает | Скачать |
+|---|---|---|
+| `gemini-for-claude-code` | Запуск Claude Code на моделях Google Gemini через локальный прокси: установка, ключ AI Studio, выбор моделей, подключение через ANTHROPIC_BASE_URL, разбор ошибок. | [zip, 22 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/gemini-for-claude-code.zip) |
+| `claude-gemini-bridge` | Мост Claude Code ↔ Gemini: хук отдаёт чтение больших кодовых баз в Gemini CLI, а Claude остаётся главным. Установка, пороги, проверка, удаление. | [zip, 32 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/claude-gemini-bridge.zip) |
+| `opencodex` | opencodex (ocx): любые модели в Claude Code, Claude Desktop, Codex и Grok Build, пул аккаунтов ChatGPT, провайдеры, маршрутизация, расход. | [zip, 119 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/opencodex.zip) |
+
 ### marketing
 
 Маркетинг: создание контента, планирование кампаний, анализ результатов по каналам, единый голос бренда, отслеживание конкурентов и отчёты о том, что работает.
@@ -315,4 +325,4 @@ python3 plugins/moi-navyki/skills/montazh-po-ssylke/scripts/montage.py render pl
 
 ## Авторство и лицензии
 
-Плагины принадлежат их авторам и распространяются по их лицензиям (MIT, Apache-2.0, MPL-2.0 — указаны в каждом плагине и в каждом zip). В этом репозитории переведены описания на русский и добавлен навык монтажа `montazh-po-ssylke` (MIT). Официальный плагин Figma сюда не включён — ставьте его из каталога плагинов Claude.
+Плагины принадлежат их авторам и распространяются по их лицензиям (MIT, Apache-2.0, MPL-2.0, WTFPL — указаны в каждом плагине и в каждом zip). В этом репозитории переведены описания на русский и добавлен навык монтажа `montazh-po-ssylke` (MIT). Официальный плагин Figma сюда не включён — ставьте его из каталога плагинов Claude.

@@ -141,6 +141,12 @@
       "version": "1.3.0"
     },
     {
+      "name": "gemini-i-modeli",
+      "source": "./plugins/gemini-i-modeli",
+      "description": "Gemini и другие модели в Claude Code: прокси, чтобы Claude Code работал на Gemini; мост, который отдаёт чтение больших проектов в Gemini CLI; opencodex — любые модели (GPT, Grok, DeepSeek, Kimi, Qwen, Ollama) в Claude Code, Claude Desktop и Codex.",
+      "version": "1.0.0"
+    },
+    {
       "name": "marketing",
       "source": "./plugins/marketing",
       "description": "Маркетинг: создание контента, планирование кампаний, анализ результатов по каналам, единый голос бренда, отслеживание конкурентов и отчёты о том, что работает.",

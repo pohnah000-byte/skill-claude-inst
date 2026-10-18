@@ -1,0 +1,11 @@
+{
+  "name": "gemini-i-modeli",
+  "description": "Gemini и другие модели в Claude Code: прокси, чтобы Claude Code работал на Gemini; мост, который отдаёт чтение больших проектов в Gemini CLI; opencodex — любые модели (GPT, Grok, DeepSeek, Kimi, Qwen, Ollama) в Claude Code, Claude Desktop и Codex.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Анастасия (сборка); авторы проектов указаны в каждом навыке"
+  },
+  "license": "MIT",
+  "category": "development",
+  "tags": ["gemini", "claude-code", "proxy", "opencodex", "llm"]
+}
