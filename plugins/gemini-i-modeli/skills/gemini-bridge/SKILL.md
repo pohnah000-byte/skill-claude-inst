@@ -1,5 +1,5 @@
 ---
-name: claude-gemini-bridge
+name: gemini-bridge
 description: Мост Claude Code ↔ Gemini — хук, который отдаёт чтение и анализ больших кодовых баз (много файлов, сотни тысяч токенов) в Gemini CLI, а Claude остаётся главным. Используй, когда просят «подключить Gemini для больших проектов», «чтобы Claude не упирался в контекст», установить, настроить, проверить или удалить Claude-Gemini Bridge.
 license: MIT
 compatibility: Нужны компьютер с macOS или Linux (bash 4+), Claude Code CLI, Gemini CLI (команда gemini) и jq. Не работает внутри чата claude.ai — только на своём компьютере.
@@ -34,7 +34,7 @@ compatibility: Нужны компьютер с macOS или Linux (bash 4+), Cl
 - нужно «проанализировать весь проект / все файлы *.py / найти уязвимости во всей папке»;
 - установить, настроить пороги, проверить, что Gemini реально вызывается, или удалить мост.
 
-Если нужно, чтобы **вся** работа Claude Code шла на Gemini — это навык `gemini-for-claude-code`.
+Если нужно, чтобы **вся** работа Claude Code шла на Gemini — это навык `gemini-proxy`.
 
 ## Когда Gemini подключается (по умолчанию)
 

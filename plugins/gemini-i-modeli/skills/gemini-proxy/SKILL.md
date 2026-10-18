@@ -1,5 +1,5 @@
 ---
-name: gemini-for-claude-code
+name: gemini-proxy
 description: Запуск Claude Code на моделях Google Gemini через локальный прокси (Gemini for Claude Code). Используй, когда просят «подключить Gemini к Claude Code», «запустить Claude Code на Gemini», «сэкономить на Claude Code через Gemini», настроить прокси ANTHROPIC_BASE_URL для Gemini или починить его ошибки.
 license: WTFPL
 compatibility: Нужны компьютер с Python 3.8+, Claude Code CLI и ключ Google AI Studio (GEMINI_API_KEY). Не работает внутри чата claude.ai — только на своём компьютере или сервере.
@@ -28,7 +28,7 @@ Claude Code отправляет ему запросы как обычно, а �
 - нужно объяснить, как это устроено.
 
 Если же нужно, чтобы **Claude остался главным**, а Gemini только читал большие кодовые базы —
-это навык `claude-gemini-bridge`. Если нужен один прокси сразу под много провайдеров
+это навык `gemini-bridge`. Если нужен один прокси сразу под много провайдеров
 (OpenAI, Grok, DeepSeek, Kimi и др.) — навык `opencodex`.
 
 ## Установка (делает Claude по шагам, с согласия человека)

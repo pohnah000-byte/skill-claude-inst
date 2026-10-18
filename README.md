@@ -252,8 +252,8 @@ Gemini и другие модели в Claude Code: прокси, чтобы Cla
 
 | Навык | Что делает | Скачать |
 |---|---|---|
-| `gemini-for-claude-code` | Запуск Claude Code на моделях Google Gemini через локальный прокси: установка, ключ AI Studio, выбор моделей, подключение через ANTHROPIC_BASE_URL, разбор ошибок. | [zip, 22 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/gemini-for-claude-code.zip) |
-| `claude-gemini-bridge` | Мост Claude Code ↔ Gemini: хук отдаёт чтение больших кодовых баз в Gemini CLI, а Claude остаётся главным. Установка, пороги, проверка, удаление. | [zip, 32 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/claude-gemini-bridge.zip) |
+| `gemini-proxy` | Запуск Claude Code на моделях Google Gemini через локальный прокси: установка, ключ AI Studio, выбор моделей, подключение через ANTHROPIC_BASE_URL, разбор ошибок. | [zip, 22 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/gemini-proxy.zip) |
+| `gemini-bridge` | Мост Claude Code ↔ Gemini: хук отдаёт чтение больших кодовых баз в Gemini CLI, а Claude остаётся главным. Установка, пороги, проверка, удаление. | [zip, 32 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/gemini-bridge.zip) |
 | `opencodex` | opencodex (ocx): любые модели в Claude Code, Claude Desktop, Codex и Grok Build, пул аккаунтов ChatGPT, провайдеры, маршрутизация, расход. | [zip, 119 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/opencodex.zip) |
 
 ### marketing
