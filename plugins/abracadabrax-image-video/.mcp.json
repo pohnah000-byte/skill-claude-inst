@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abracadabrax-image-video": {
+      "type": "http",
+      "url": "https://abracadabrax.app/api/claude/media/mcp"
+    }
+  }
+}

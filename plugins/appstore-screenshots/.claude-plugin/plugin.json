@@ -1,0 +1,10 @@
+{
+  "name": "appstore-screenshots",
+  "description": "Автоматические скриншоты для App Store и Google Play (приложения на Expo/React Native): съёмка экранов через Maestro, рамки телефонов через fastlane, рекламные надписи через Pillow.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nicolas Torres"
+  },
+  "homepage": "https://github.com/ntgussoni/app-store-play-store-screenshots-skill",
+  "license": "MIT"
+}

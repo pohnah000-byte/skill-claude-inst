@@ -1,0 +1,38 @@
+{
+  "name": "crypto-spot-futures-analyzer",
+  "version": "0.3.3",
+  "description": "Разбор сделок с криптовалютой на споте и фьючерсах: скриншоты TradingView, сетапы BTC/ETH/альткоинов, точки входа, стопы, цели, плечо, риск ликвидации, теханализ, риск/прибыль, размер позиции, фандинг, открытый интерес, усреднение (DCA) и риски портфеля.",
+  "keywords": [
+    "crypto",
+    "crypto-trading",
+    "crypto-analyzer",
+    "crypto-trade-analyzer",
+    "crypto-trading-assistant",
+    "spot-trading",
+    "futures-trading",
+    "perpetual-futures",
+    "bitcoin",
+    "btc-analysis",
+    "ethereum",
+    "eth-analysis",
+    "technical-analysis",
+    "chart-analysis",
+    "tradingview",
+    "screenshot-analysis",
+    "support-resistance",
+    "risk-reward",
+    "position-sizing",
+    "stop-loss",
+    "take-profit",
+    "leverage",
+    "liquidation",
+    "funding-rate",
+    "open-interest",
+    "dca",
+    "portfolio-risk"
+  ],
+  "author": {
+    "name": "Crypto Spot & Futures Analyzer"
+  },
+  "license": "MIT"
+}

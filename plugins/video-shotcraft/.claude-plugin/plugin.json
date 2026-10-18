@@ -1,0 +1,19 @@
+{
+  "name": "video-shotcraft",
+  "version": "1.0.0",
+  "description": "Кинематографичные видео о продукте на Remotion (видео из кода): готовые рецепты кадров, превью движения, переиспользуемые компоненты, звуковые эффекты и шаблон для продакшена.",
+  "author": {
+    "name": "Wei Yihao"
+  },
+  "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+  "repository": "https://github.com/Vincentwei1021/video-shotcraft",
+  "license": "Apache-2.0",
+  "keywords": [
+    "video",
+    "remotion",
+    "motion-design",
+    "product-video",
+    "agent-skill"
+  ],
+  "skills": "./"
+}

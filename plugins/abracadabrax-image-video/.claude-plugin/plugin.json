@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "abracadabrax-image-video",
+  "displayName": "Abracadabrax — картинки и видео",
+  "version": "1.0.2",
+  "description": "Генерация картинок и видео с ИИ: превращает текстовое описание в изображение или ролик, с выбором модели, формата и длительности. Оплата кредитами Abracadabrax.",
+  "author": {
+    "name": "Abracadabrax",
+    "url": "https://abracadabrax.app"
+  },
+  "homepage": "https://abracadabrax.app/mcp#media",
+  "repository": "https://github.com/abracadabrax-app/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "ai-image",
+    "ai-video",
+    "image-generator",
+    "video-generator",
+    "ai-image-generator",
+    "ai-video-generator",
+    "text-to-image",
+    "text-to-video",
+    "prompt-to-video",
+    "mcp"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://abracadabrax.app/privacy",
+  "termsOfServiceUrl": "https://abracadabrax.app/terms",
+  "supportUrl": "https://abracadabrax.app/support",
+  "documentationUrl": "https://abracadabrax.app/mcp#media"
+}

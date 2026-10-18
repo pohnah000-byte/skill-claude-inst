@@ -1,0 +1,19 @@
+{
+  "name": "figma-suite",
+  "owner": {
+    "name": "robukh"
+  },
+  "metadata": {
+    "description": "Claude Code skill set for Figma — token sync, component library generation, screen design, and design system audits."
+  },
+  "plugins": [
+    {
+      "name": "figma-suite",
+      "source": "./",
+      "description": "Claude Code skill set for Figma with bidirectional code<->Figma component/token sync, component composition, variable bindings, and design system workflows.",
+      "version": "1.4.0",
+      "keywords": ["figma", "design-system", "components", "tokens", "design"],
+      "license": "MPL-2.0"
+    }
+  ]
+}

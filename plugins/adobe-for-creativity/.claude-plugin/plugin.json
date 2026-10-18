@@ -1,0 +1,17 @@
+{
+  "name": "adobe-for-creativity",
+  "description": "Инструменты Adobe Creative Cloud для фото, векторов, дизайна и видео: пакетное редактирование, адаптация под разные площадки, многошаговые творческие задачи с аккуратным результатом.",
+  "version": "3.2.0",
+  "author": {
+    "name": "Adobe"
+  },
+  "repository": "https://github.com/adobe/skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "adobe",
+    "creative-cloud",
+    "image-editing",
+    "design"
+  ],
+  "skills": "./skills"
+}

@@ -1,0 +1,36 @@
+---
+name: creativeclaw-clone-voice
+description: "Помогает записать, приватно загрузить, клонировать, проверить и использовать свой голос (с согласия владельца) через Cartesia или ElevenLabs. Используй, когда просят клонировать голос, сохранить его для персонажа, заменить или прослушать клон. Не для придумывания нового голоса по описанию — для этого creativeclaw-generate-voiceover."
+---
+
+# Clone your voice
+
+For each Creative Claw tool call that exposes it, pass the optional `skills_used` array with `creativeclaw-clone-voice`, any other Creative Claw skills actually followed, and guide entries in the form `<skill-name>/<relative-guide-path>` (for example, `creativeclaw-clone-voice/references/workflow-basics.md`). Include only skills and guides followed for that call. Omit attribution if the user declines tracking or the field is unavailable. Never send other plugin names, private data, or local paths.
+
+**Not connected yet?** If no Creative Claw tools (such as `list_models` or `generate_image`) are available, the plugin is installed but the server is not connected. Stop and tell the user to open the plugin's Connectors tab in their app (or the MCP server list in a terminal client), connect Creative Claw, sign in, and ask again. Do not substitute other tools or describe a result that was not generated.
+
+Read [shared execution guidance](references/workflow-basics.md) before tools and [recording, upload, consent and reuse](references/voices/cloning.md) for this workflow.
+
+Ask the user for a recording of at least one minute of clean solo speech, upload it privately, clone it, audition a short sample, and reuse the saved Character. One to two minutes is our onboarding recommendation, not a universal provider API minimum.
+
+Clone only the user's own voice, or a voice whose speaker has given explicit permission. Do not clone a public figure or anyone else without their permission. Without a consented recording, offer design_voice instead ([voice design](references/voices/voice-design.md)).
+
+1. Identify the intended delivery and an existing Character, if any. Reuse an avatar's Character instead of creating a duplicate.
+2. Ask for consent once, up front, in the same message as the recording request: name the provider, quote the full consent statement with its terms and privacy links from [the reference](references/voices/cloning.md), and ask for the recording's language. One "I agree" plus the language covers both. Possessing a recording is not consent.
+3. Import with purpose `voice_clone` to obtain a private `audio_asset_id`. Follow the reference for the current client's upload route.
+4. As soon as the upload returns, call `clone_voice` with that asset, `consent: true`, the recording's `language` code (for example `he`; it defaults to `en`), and `provider: "cartesia"` (the default), or `provider: "elevenlabs"` when the user chooses ElevenLabs. Do not ask for consent or confirmation again: the step 2 agreement is the explicit consent the upload result mentions. Use `character_id` for an existing Character or `character_name` for a new voice-only Character. The tool saves the clone automatically.
+5. Audition using `generate_speech` and the returned `character_id`. Read the selected model reference below. Include a name, number and natural sentence in the intended language. Present the audio for approval before a longer production.
+6. Reuse `character_id`, not the private source recording, for future speech. Never replace a saved voice merely to change speech models.
+
+## Choose the synthesis model
+
+Speak a clone with its provider's model, and pass the model explicitly.
+
+- [Cartesia Sonic](references/voices/cartesia.md): a Cartesia clone.
+- [ElevenLabs v2](references/voices/elevenlabs-v2.md): an ElevenLabs clone, steady read in its supported languages.
+- [ElevenLabs v4](references/voices/elevenlabs-v4.md): an ElevenLabs clone, expressive delivery or dialogue, and languages v2 lacks.
+- [Language routing](references/voices/languages.md): read for non-English speech, dialect requests, or mixed-language scripts.
+
+Only change provider when the user chooses it. A missing Cartesia clone can be created from the retained consented sample when Cartesia is selected. Replacing the source invalidates both providers' clones, so explain and confirm replacement first. Do not silently substitute a stock voice after a clone fails.
+
+For a Fish clone, use `provider: "fish"` with the private recording and existing consent. Speak with `speech/fish-drama-3`. Read [Fish guidance](references/voices/fish.md) and current `get_model_params`. Selecting Fish for an existing consented Character can create a missing private Fish copy without replacing its other provider copies.

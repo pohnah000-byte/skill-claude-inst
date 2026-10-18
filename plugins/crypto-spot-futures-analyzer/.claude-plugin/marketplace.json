@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "crypto-spot-futures-analyzer-marketplace",
+  "description": "Marketplace source for the Crypto Spot & Futures Analyzer plugin.",
+  "owner": {
+    "name": "keycustodian09-spec"
+  },
+  "plugins": [
+    {
+      "name": "crypto-spot-futures-analyzer",
+      "displayName": "Crypto Spot & Futures Analyzer",
+      "description": "Analyze crypto spot and futures trades, TradingView screenshots, entries, stops, targets, leverage, liquidation risk, technical analysis, risk/reward, position sizing, funding, open interest, DCA and portfolio risk.",
+      "source": "./",
+      "category": "financial-services"
+    }
+  ]
+}

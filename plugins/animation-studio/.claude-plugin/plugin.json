@@ -1,0 +1,24 @@
+{
+  "name": "animation-studio",
+  "description": "Рисованные анимационные мультфильмы: каждый кадр рисуется кодом, музыка синтезируется кодом и идеально совпадает с картинкой. На выходе готовый MP4 1080p — горизонтальный 16:9 или вертикальный 9:16 для Reels, TikTok и Shorts.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Afaq Rashid",
+    "url": "https://github.com/i-afaqrashid"
+  },
+  "homepage": "https://github.com/i-afaqrashid/claude-animation-studio",
+  "repository": "https://github.com/i-afaqrashid/claude-animation-studio",
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "video",
+    "music",
+    "synthesizer",
+    "motion-graphics",
+    "canvas",
+    "ffmpeg",
+    "creative",
+    "vertical-video",
+    "promo"
+  ]
+}

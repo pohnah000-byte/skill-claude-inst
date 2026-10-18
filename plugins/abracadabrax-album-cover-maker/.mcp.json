@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abracadabrax-album-cover-maker": {
+      "type": "http",
+      "url": "https://abracadabrax.app/api/claude/album-cover-maker/mcp"
+    }
+  }
+}

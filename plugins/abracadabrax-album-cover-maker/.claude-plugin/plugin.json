@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "abracadabrax-album-cover-maker",
+  "displayName": "Abracadabrax — обложки для альбомов",
+  "version": "1.0.0",
+  "description": "Обложки для музыки: назовите Claude название, исполнителя, жанр и настроение, и Abracadabrax нарисует квадратную обложку для альбома, сингла, EP, микстейпа или плейлиста — с названием или без текста. Оплата кредитами Abracadabrax.",
+  "author": {
+    "name": "Abracadabrax",
+    "url": "https://abracadabrax.app"
+  },
+  "homepage": "https://abracadabrax.app/mcp#album-cover-maker",
+  "repository": "https://github.com/abracadabrax-app/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "album-cover",
+    "album-art",
+    "cover-art",
+    "single-cover",
+    "ep-cover",
+    "mixtape-cover",
+    "playlist-cover",
+    "music-artwork",
+    "ai-image",
+    "mcp"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://abracadabrax.app/privacy",
+  "termsOfServiceUrl": "https://abracadabrax.app/terms",
+  "supportUrl": "https://abracadabrax.app/support",
+  "documentationUrl": "https://abracadabrax.app/mcp#album-cover-maker"
+}

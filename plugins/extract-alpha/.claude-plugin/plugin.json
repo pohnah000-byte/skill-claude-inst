@@ -1,0 +1,20 @@
+{
+  "name": "extract-alpha",
+  "description": "Убирает фон с картинок, сгенерированных ИИ, с идеальной прозрачностью: одна и та же картинка генерируется на белом и на чёрном фоне, а плагин сравнивает их и вычисляет прозрачность по пикселям.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Richard Fu"
+  },
+  "homepage": "https://github.com/furic/extract-alpha",
+  "repository": "https://github.com/furic/extract-alpha",
+  "license": "MIT",
+  "category": "media",
+  "tags": [
+    "image-processing",
+    "background-removal",
+    "alpha-extraction",
+    "transparency",
+    "ai-image",
+    "difference-matting"
+  ]
+}

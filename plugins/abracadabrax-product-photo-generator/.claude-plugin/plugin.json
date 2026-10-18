@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "abracadabrax-product-photo-generator",
+  "displayName": "Abracadabrax — фото товаров",
+  "version": "1.0.0",
+  "description": "Фото товара с ИИ: опишите товар, и Claude подготовит снимок на белом фоне, сцену в интерьере, раскладку сверху (флэтлей), баннер или крупный план для магазина и рекламы. Оплата кредитами Abracadabrax.",
+  "author": {
+    "name": "Abracadabrax",
+    "url": "https://abracadabrax.app"
+  },
+  "homepage": "https://abracadabrax.app/mcp#product-photo-generator",
+  "repository": "https://github.com/abracadabrax-app/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "product-photo",
+    "product-photography",
+    "ai-product-photo",
+    "ecommerce",
+    "packshot",
+    "lifestyle-photo",
+    "product-image",
+    "shopify",
+    "ai-image",
+    "mcp"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://abracadabrax.app/privacy",
+  "termsOfServiceUrl": "https://abracadabrax.app/terms",
+  "supportUrl": "https://abracadabrax.app/support",
+  "documentationUrl": "https://abracadabrax.app/mcp#product-photo-generator"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abracadabrax-background-music-generator": {
+      "type": "http",
+      "url": "https://abracadabrax.app/api/claude/background-music-generator/mcp"
+    }
+  }
+}
