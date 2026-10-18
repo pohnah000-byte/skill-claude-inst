@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Собирает каждый навык из plugins/ в отдельный zip для загрузки в Claude (Настройки → Возможности → Навыки).
 
-Использование: python3 tools/build_skill_zips.py [папка_вывода]   (по умолчанию dist/)
+Использование: python3 tools/build_skill_zips.py [папка_вывода]   (по умолчанию skills-zip/)
 """
 import glob, re, yaml, os, json, sys, zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 R = os.path.join(ROOT, "plugins")
-D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "dist")
+D = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "skills-zip")
 os.makedirs(D, exist_ok=True)
 RENAME = {("data", "analyze"): "data-analyze", ("productivity", "update"): "productivity-update",
           ("extract-alpha", "prompt"): "extract-alpha-prompt", ("design", "design-critique"): "design-critique-brief"}
