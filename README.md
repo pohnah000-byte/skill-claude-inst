@@ -4,6 +4,8 @@
 
 **Главная фишка — навык [`montazh-po-ssylke`](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/montazh-po-ssylke.zip):** присылаете ссылку на видео или файл, а Claude сам расшифровывает речь, находит сильные моменты и собирает готовые Reels/Shorts 9:16 в вашем стиле: без пауз, с субтитрами, хуком на экране, логотипом, музыкой и обложкой.
 
+**Новинка — [отдел маркетинга «Полный вперёд»](plugins/otdel-marketinga):** шесть ИИ-сотрудников с именами в рифму — Рулёт, Звездочёт, Постомёт, Буквоплёт, Вертолёт, Банкомёт. Ставите задачу одной фразой, а отдел сдаёт готовые тексты, сценарии рилс, контент-план и воронку продаж.
+
 ## Как установить навык (claude.ai и приложение Claude)
 
 1. Скачайте zip нужного навыка из таблицы ниже (все архивы лежат в папке [`skills-zip`](https://github.com/pohnah000-byte/skill-claude-inst/tree/main/skills-zip); ссылка «zip» сразу скачивает файл). Распаковывать не нужно.
@@ -52,6 +54,14 @@
 | `transcript-intelligence` | Расшифровки видео из TikTok, Instagram, YouTube, Facebook, X/Twitter, LinkedIn, Rumble и Reddit: краткое содержание, разбор и переработка. | [zip, 2 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/transcript-intelligence.zip) |
 | `trend-discovery` | Поиск трендов в нише: темы, хэштеги, звуки, посты, рилс, шортс, блогеры и форматы. | [zip, 1 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/trend-discovery.zip) |
 | `vibe-wise-learn` | Learning-first development mode (VibeWise). | [zip, 9 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/vibe-wise-learn.zip) |
+
+### Отдел маркетинга «Полный вперёд»
+
+Шесть ИИ-сотрудников, имена в рифму: **Рулёт** рулит, **Звездочёт** считает, **Постомёт** расставляет, **Буквоплёт** пишет, **Вертолёт** снимает, **Банкомёт** продаёт. Пишите «Отдел маркетинга, запусти продажи гайда» или зовите одного: «Буквоплёт, напиши ветку для Threads». В claude.ai сотрудники работают по очереди в одном чате, в Claude Code каждый — отдельный агент (`/plugin install otdel-marketinga@ru-plugins`). Подробнее — в [README плагина](plugins/otdel-marketinga).
+
+| Навык | Что делает | Скачать |
+|---|---|---|
+| `otdel-marketinga` | Отдел маркетинга из 6 сотрудников: бриф, аналитика ЦА и конкурентов, контент-план, тексты, сценарии рилс, офферы и воронки — готовые материалы, а не советы. | [zip, 5 КБ](https://github.com/pohnah000-byte/skill-claude-inst/raw/main/skills-zip/otdel-marketinga.zip) |
 
 ### adobe-for-creativity
 
